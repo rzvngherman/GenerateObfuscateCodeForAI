@@ -4,8 +4,11 @@
 run with arguments:
 ConsoleApp1ObfuscateMethodName.exe "01_ophuscate_data" "inputText.txt" "inputTextTags.txt"
 
-2)
-go to AI and say:
+2) files generated:
+-> outputText.txt
+-> outputTextTags.txt
+
+3) take data from 'outputText.txt' and go to AI and say:
 
 Write nunit tests for following method:
 
@@ -21,7 +24,8 @@ Write nunit tests for following method:
         }
 
 
-3) generated from AI:
+3) response generated from AI:
+
 using NUnit.Framework;
 using Prime.Services;
 
@@ -64,3 +68,5 @@ namespace PrimeService.Tests
         }
     }
 }
+
+4) put unit test inside unit test class
