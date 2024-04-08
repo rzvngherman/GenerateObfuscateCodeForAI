@@ -11,13 +11,13 @@ namespace ConsoleApp1ReplaceMethodName
             // ConsoleApp1ObfuscateMethodName.exe "02_create_class_from_AI"
 
             //args = new string[] { "01_ophuscate_data", "inputText.txt", "inputTextTags.txt" };
-            //args = new string[] { "02_create_class_from_AI" };
+            //args = new string[] { "02_create_class_from_AI", "outputTextTags.txt", "UnitTest1GeneratedByAI.txt" };
 
             var p = new Program();
             p.DoStuff(args);
 
             // ConsoleApp1ObfuscateMethodName.exe "01_ophuscate_data" "inputText.txt" "inputTextTags.txt"
-            // ConsoleApp1ObfuscateMethodName.exe "02_create_class_from_AI" "inputTextTags.txt" "UnitTest1GeneratedByAI.txt"
+            // ConsoleApp1ObfuscateMethodName.exe "02_create_class_from_AI" "outputTextTags.txt" "UnitTest1GeneratedByAI.txt"
         }
 
         private void DoStuff(string[] args)
@@ -44,10 +44,12 @@ namespace ConsoleApp1ReplaceMethodName
 
             if (args[0] == "02_create_class_from_AI")
             {
-                var (message, path) = new CreateClassFromAIResponse().CreateClassFrom();
+                var tagsUsedFile = args[1]; // "outputTextTags.txt"
+                var inputFile = args[2]; // "UnitTest1GeneratedByAI"
+
+                var (message, path) = new CreateClassFromAIResponse().CreateClassFrom(tagsUsedFile, inputFile);
                 Console.WriteLine("");
-                Console.WriteLine("message: " + message);
-                Console.WriteLine("filepath: " + path);
+                Console.WriteLine(message);
             }
         }
     }
