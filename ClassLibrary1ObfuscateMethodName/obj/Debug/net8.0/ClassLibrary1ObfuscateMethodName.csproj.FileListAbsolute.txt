@@ -1,0 +1,11 @@
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\bin\Debug\net8.0\ClassLibrary1ObfuscateMethodName.deps.json
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\bin\Debug\net8.0\ClassLibrary1ObfuscateMethodName.dll
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\bin\Debug\net8.0\ClassLibrary1ObfuscateMethodName.pdb
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.AssemblyInfoInputs.cache
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.AssemblyInfo.cs
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.csproj.CoreCompileInputs.cache
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.dll
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\refint\ClassLibrary1ObfuscateMethodName.dll
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ClassLibrary1ObfuscateMethodName.pdb
+D:\work\local\ConsoleApp1ObfuscateMethodName\ClassLibrary1ObfuscateMethodName\obj\Debug\net8.0\ref\ClassLibrary1ObfuscateMethodName.dll

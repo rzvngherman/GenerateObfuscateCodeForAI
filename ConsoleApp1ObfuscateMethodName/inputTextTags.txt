@@ -1,0 +1,5 @@
+﻿ClassLibrary1ObfuscateMethodName;
+Class1;
+Method1;
+number;
+divisionNumber;
