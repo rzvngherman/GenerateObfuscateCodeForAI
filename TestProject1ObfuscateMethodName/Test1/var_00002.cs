@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace var_00001
+namespace TestProject1ObfuscateMethodName.Test1
 {
     public class var_00002
     {

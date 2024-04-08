@@ -1,7 +1,6 @@
-using var_00001;
 using Xunit;
 
-namespace TestProject1ObfuscateMethodName
+namespace TestProject1ObfuscateMethodName.Test1
 {
     [TestFixture]
     public class Tests
