@@ -17,6 +17,7 @@ namespace ConsoleApp1ReplaceMethodName
             p.DoStuff(args);
 
             // ConsoleApp1ObfuscateMethodName.exe "01_ophuscate_data" "inputText.txt" "inputTextTags.txt"
+            // ConsoleApp1ObfuscateMethodName.exe "02_create_class_from_AI" "inputTextTags.txt" "UnitTest1GeneratedByAI.txt"
         }
 
         private void DoStuff(string[] args)

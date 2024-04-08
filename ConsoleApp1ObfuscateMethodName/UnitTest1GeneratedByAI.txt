@@ -1,9 +1,10 @@
-using Xunit;
+﻿using NUnit.Framework;
+using Prime.Services;
 
-namespace TestProject1ObfuscateMethodName.Test1
+namespace PrimeService.Tests
 {
     [TestFixture]
-    public class Tests
+    public class PrimeServiceTests
     {
         private var_00002 _primeService;
 

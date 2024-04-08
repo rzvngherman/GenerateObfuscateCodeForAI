@@ -4,21 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace TestProject1ObfuscateMethodName.Test1
+namespace TestProject1ObfuscateMethodName
 {
-    public class var_00002
+    public class Class1
     {
-        public double var_00003(int var_00004, int var_00005)
+        public double Method1(int number, int divisionNumber)
         {
-            if (var_00005 == 0)
+            if (divisionNumber == 0)
             {
                 throw new DivideByZeroException();
             }
 
-            var result = (double)var_00004 / var_00005;
+            var result = (double)number / divisionNumber;
             return result;
         }
-
     }
 }
